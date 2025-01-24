@@ -1,0 +1,1 @@
+This repository demonstrates a common yet easily missed JavaScript bug involving null handling and type checking. The `foo` function attempts to handle null values but does not differentiate between `null` and `undefined`, and it also fails to check if the input is an array or string before accessing the `length` property.  The solution offers a more robust approach.
